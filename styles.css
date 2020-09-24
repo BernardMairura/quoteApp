@@ -1,8 +1,11 @@
 
-body {
-  background-image: url(./assets/pexels-photo-3845458.webp);
+body{
+  background-image: url(./assets/father.webp);
+  background-size: cover;
+  background-position: center;
+
 }
-     
+
 
 
 blockquote{
@@ -18,12 +21,12 @@ blockquote{
   overflow: hidden;
   margin-top: -50px;
   padding-top: -100px;
-  border-radius: 17px;
-  background-color: #028A0f;
+  border-radius: 15px;
+  background-color: #D6ED17FF;
   margin-top: 25px;
-  color:white;
-  width: 325px;
-  box-shadow: 2px 2px 2px 2px #E0E0E0;
+  color:#606060FF;
+  width: 1000px;
+  box-shadow: 2px 2px 2px 2px #F1F4FFFF;
   
 }
 
@@ -32,7 +35,7 @@ blockquote{
   margin-top: -10px;
   font-weight: bold;
   font-size:100px;
-  color:white;
+  color:#606060FF;
   font-family: "Times New Roman", Georgia, Serif;
   
 }
