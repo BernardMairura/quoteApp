@@ -1,20 +1,13 @@
-$(function(){
-    $(".increment").click(function(){
-      var count = parseInt($("~ .count", this).text());
-      
-      if($(this).hasClass("up")) {
-        var count = count + 1;
-        
-         $("~ .count", this).text(count);
-      } else {
-        var count = count - 1;
-         $("~ .count", this).text(count);     
-      }
-      
-      $(this).parent().addClass("bump");
-      
-      setTimeout(function(){
-        $(this).parent().removeClass("bump");    
-      }, 400);
-    });
-  });
+let upVote=document.querySelector("#upVote");
+let downVote=document.querySelector("#downVote");
+let input1=document.querySelector("#input1");
+let input2=document.querySelector("#input2");
+
+upVote.addEventListener("click",()=>{
+  input1.value=parseInt(input1.value)+1;
+})
+
+
+downVote.addEventListener("click",()=>{
+  input2.value=parseInt(input2.value)+1;
+})
